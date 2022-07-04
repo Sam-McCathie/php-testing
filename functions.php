@@ -1,4 +1,6 @@
 <?php
+    echo "<hr/><b>Functions</b></br>";
+
     $x = 8; // globally scoped
 
     function myTest(){
@@ -45,4 +47,6 @@
     echo "<br/>";
 
     myTestStatic(); // 2
+    echo "<br/>";
+
 ?>

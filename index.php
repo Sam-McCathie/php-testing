@@ -9,11 +9,11 @@
       // php scripts must be added here
     ?>
   
-    <h3>Imports</h3>
     <?php 
       // include 'filename.php' to import external file
       include 'hello.php';
       include 'functions.php';
+      include 'variables.php'
     ?>
     
   </body>

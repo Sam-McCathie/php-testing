@@ -1,4 +1,6 @@
 <?php
+    echo "<b>Hello</b><br/>";
+
     // statements end with a ';'
 
     // variables start with $
