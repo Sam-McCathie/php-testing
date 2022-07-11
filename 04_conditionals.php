@@ -1,9 +1,7 @@
 <?php
-
 /* ---- Conditionals & Operators ---- */
 
 /* ------------ Operators ----------- */
-
 /*
   < Less than
   > Greater than
@@ -16,20 +14,35 @@
 */
 
 /* ---------- If & If-Else Statements --------- */
+$time = 15;
+print($time);
 
-/*
-** If Statement Syntax
-if (condition) {
-  // code to be executed if condition is true
+if($time < 12){ 
+  echo "Good morning";
+} else {
+  echo "Good evening";
 }
-*/
+
+// shorthand for above
+if($time < 12) echo "Good morning";
+else echo "Good evening";
 
 /* -------- Ternary Operator -------- */
-/*
-  The ternary operator is a shorthand if statement.
-  Ternary Syntax:
-    condition ? true : false;
-*/
-
+echo $time < 12 ? "Good Morning" : "Good evening";
 
 /* -------- Switch Statements ------- */
+$favColor = "red";
+
+switch($favColor){
+  case "red":
+    echo "hello r";
+    break;
+  case "green":
+    echo "hello g";
+    break;  
+  case "blue":
+    echo "hello b";
+    break;
+  default:
+    echo "hello";
+  }
